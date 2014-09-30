@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "main": "core.js",
+  "version": "0.1",
+  "authors": [
+    "m.tulik <mtulik@ecisys.com>"
+  ],
+  "private" : true,  
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.1",
+    "canjs": "https://github.com/bitovi/canjs.git#2f19b464fab9565474ca9902f51e1f3af57f71b3",
+    "steal": "~0.3.0"
+  },
+  "devDependencies": {
+    "funcunit": "*",
+    "static-proxy": "https://github.com/bitovi/static-proxy.git"
+  }
+}
